@@ -17,7 +17,7 @@ for row in rows:
         'name':column[1].text,
         'price':column[2].text,
         'change':column[3].text,
-        'change %':float(column[4].text[:-1]),
+        'change %':float(column[4].text),
         'market cap':column[5].text,
         'volume in currency':column[7].text,
     }
